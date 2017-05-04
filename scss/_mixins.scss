@@ -83,6 +83,11 @@
   text-transform: uppercase;
 }
 
+@mixin heading-bold {
+  font-family: "milowebbold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
 @mixin light-font {
   font-family: "miloweblight", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

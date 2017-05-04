@@ -10,19 +10,15 @@ header.masthead {
     .intro-text {
         padding-top: 100px;
         padding-bottom: 50px;
-        .intro-lead-in {
-            @include serif-font;
-            font-style: italic;
-            font-size: 22px;
-            line-height: 22px;
-            margin-bottom: 25px;
-        }
         .intro-heading {
-            @include heading-font;
-            font-weight: 700;
+            @include heading-bold;
             font-size: 50px;
             line-height: 50px;
             margin-bottom: 25px;
+        }
+        .intro-message {
+            @include body-font;
+            font-size: 21px;
         }
     }
 }
@@ -30,21 +26,11 @@ header.masthead {
 @media(min-width:768px) {
     header.masthead {
         .intro-text {
-            padding-top: 300px;
-            padding-bottom: 200px;
-            .intro-lead-in {
-                @include serif-font;
-                font-style: italic;
-                font-size: 40px;
-                line-height: 40px;
-                margin-bottom: 25px;
-            }
+            padding: 380px 180px 200px;
             .intro-heading {
-                @include heading-font;
                 font-weight: 700;
-                font-size: 75px;
-                line-height: 75px;
-                margin-bottom: 50px;
+                font-size: 50px;
+                margin-bottom: 10px;
             }
         }
     }
