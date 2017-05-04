@@ -78,12 +78,7 @@
   font-family: "miloweb", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-@mixin light-font {
-  font-family: "miloweblight", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-
 @mixin heading-font {
-  font-family: "milowebbold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "miloweblight", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
