@@ -4,32 +4,39 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 @font-face {
-  font-family: 'miloweb';
-  font-weight: normal;
+  font-family: "miloweb";
   font-style: normal;
+  font-weight: normal;
   src: url("../fonts/aptozen/MiloWeb.eot");
   src: url("../fonts/aptozen/MiloWeb.eot?#iefix") format("embedded-opentype"), url("../fonts/aptozen/MiloWeb.woff") format("woff"), url("../fonts/aptozen/MiloWeb.ttf") format("truetype"), url("../fonts/aptozen/MiloWeb.svg") format("svg"); }
 
 @font-face {
-  font-family: 'miloweblight';
-  font-weight: lighter;
+  font-family: "miloweblight";
   font-style: normal;
-  src: url("../fonts/aptozen/MiloWeb-Light.eot");
-  src: url(".../fonts/aptozen/MiloWeb-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/aptozen/MiloWeb-Light.woff") format("woff"), url("../fonts/aptozen/MiloWeb-Light.ttf") format("truetype"), url("../fonts/aptozen/MiloWeb-Light.svg") format("svg"); }
-
-@font-face {
-  font-family: 'milowebbold';
-  font-weight: bold;
-  font-style: normal;
-  src: url("../fonts/aptozen/MiloWeb-Bold.eot");
-  src: url("../fonts/aptozen/MiloWeb-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/aptozen/MiloWeb-Bold.woff") format("woff"), url("../fonts/aptozen/MiloWeb-Bold.ttf") format("truetype"), url("./fonts/MiloWeb-Bold.svg") format("svg"); }
-
-@font-face {
-  font-family: 'milowebita';
   font-weight: normal;
-  font-style: italic;
+  src: url("../fonts/aptozen/MiloWeb-Light.eot");
+  src: url("../fonts/aptozen/MiloWeb-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/aptozen/MiloWeb-Light.woff") format("woff"), url("../fonts/aptozen/MiloWeb-Light.ttf") format("truetype"), url("../fonts/aptozen/MiloWeb-Light.svg") format("svg"); }
+
+@font-face {
+  font-family: "milowebbold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/aptozen/MiloWeb-Bold.eot");
+  src: url("../fonts/aptozen/MiloWeb-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/aptozen/MiloWeb-Bold.woff") format("woff"), url("../fonts/aptozen/MiloWeb-Bold.ttf") format("truetype"), url("../fonts/aptozen/MiloWeb-Bold.svg") format("svg"); }
+
+@font-face {
+  font-family: "milowebita";
+  font-style: normal;
+  font-weight: normal;
   src: url("../fonts/aptozen/MiloWeb-Ita.eot");
-  src: url("../fonts/aptozen/MiloWeb-Ita.eot?#iefix") format("embedded-opentype"), url("../fonts/aptozen/MiloWeb-Ita.woff") format("woff"), url("../fonts/aptozen/MiloWeb-Ita.ttf") format("truetype"), url("./fonts/MiloWeb-Ita.svg") format("svg"); }
+  src: url("../fonts/aptozen/MiloWeb-Ita.eot?#iefix") format("embedded-opentype"), url("../fonts/aptozen/MiloWeb-Ita.woff") format("woff"), url("../fonts/aptozen/MiloWeb-Ita.ttf") format("truetype"), url("../fonts/aptozen/MiloWeb-Ita.svg") format("svg"); }
+
+@font-face {
+  font-family: "milowebboldita";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/aptozen/MiloWeb-BoldIta.eot");
+  src: url("../fonts/aptozen/MiloWeb-BoldIta.eot?#iefix") format("embedded-opentype"), url("../fonts/aptozen/MiloWeb-BoldIta.woff") format("woff"), url("../fonts/aptozen/MiloWeb-BoldIta.ttf") format("truetype"), url("../fonts/aptozen/MiloWeb-BoldIta.svg") format("svg"); }
 
 .bold,
 b,
@@ -68,7 +75,10 @@ a {
 
 body {
   overflow-x: hidden;
-  font-family: "miloweb", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "miloweb", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 320px; }
 
 p {
   line-height: 1.75; }
@@ -138,16 +148,22 @@ body {
   #mainNav .container {
     padding: 0; }
     #mainNav .container .navbar-brand {
-      color: #fed136;
-      font-family: "milowebita", "Helvetica Neue", Helvetica, Arial, cursive; }
+      font-size: 20px;
+      color: #fff;
+      position: relative;
+      font-family: "miloweblight", "Helvetica Neue", Helvetica, Arial, sans-serif; }
       #mainNav .container .navbar-brand:hover, #mainNav .container .navbar-brand:focus, #mainNav .container .navbar-brand:active, #mainNav .container .navbar-brand.active {
         color: #fec503; }
+      #mainNav .container .navbar-brand span {
+        display: inline-block; }
+      #mainNav .container .navbar-brand img {
+        width: 80px; }
     #mainNav .container .navbar-nav .nav-item .nav-link {
       font-size: 90%;
       padding: 0.75em 0;
       font-family: "miloweblight", "Helvetica Neue", Helvetica, Arial, sans-serif;
       text-transform: uppercase;
-      font-weight: 400;
+      font-weight: bold;
       letter-spacing: 1px;
       color: white; }
       #mainNav .container .navbar-nav .nav-item .nav-link:hover, #mainNav .container .navbar-nav .nav-item .nav-link.active {
@@ -161,11 +177,16 @@ body {
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
     border: none; }
-    #mainNav .navbar-brand {
-      font-size: 1.75em;
+    #mainNav .container .navbar-brand {
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
+      #mainNav .container .navbar-brand span {
+        position: relative;
+        font-size: 30px;
+        top: 4px; }
+      #mainNav .container .navbar-brand img {
+        width: auto; }
     #mainNav .navbar-nav .nav-item .nav-link {
       padding: 1.1em 1em !important; }
     #mainNav.navbar-shrink {

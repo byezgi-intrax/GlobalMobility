@@ -1,34 +1,52 @@
 @font-face {
-  font-family: 'miloweb';
-  font-weight: normal;
-  font-style: normal;
-
-  src: url('../fonts/aptozen/MiloWeb.eot');
-  src: url('../fonts/aptozen/MiloWeb.eot?#iefix') format('embedded-opentype'), url('../fonts/aptozen/MiloWeb.woff') format('woff'), url('../fonts/aptozen/MiloWeb.ttf') format('truetype'), url('../fonts/aptozen/MiloWeb.svg') format('svg');
+	font-family: "miloweb";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/aptozen/MiloWeb.eot");
+	src: url("../fonts/aptozen/MiloWeb.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/aptozen/MiloWeb.woff") format("woff"),
+	url("../fonts/aptozen/MiloWeb.ttf") format("truetype"),
+	url("../fonts/aptozen/MiloWeb.svg") format("svg");
 }
 @font-face {
-  font-family: 'miloweblight';
-  font-weight: lighter;
-  font-style: normal;
-
-  src: url('../fonts/aptozen/MiloWeb-Light.eot');
-  src: url('.../fonts/aptozen/MiloWeb-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/aptozen/MiloWeb-Light.woff') format('woff'), url('../fonts/aptozen/MiloWeb-Light.ttf') format('truetype'), url('../fonts/aptozen/MiloWeb-Light.svg') format('svg');
+	font-family: "miloweblight";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/aptozen/MiloWeb-Light.eot");
+	src: url("../fonts/aptozen/MiloWeb-Light.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/aptozen/MiloWeb-Light.woff") format("woff"),
+	url("../fonts/aptozen/MiloWeb-Light.ttf") format("truetype"),
+	url("../fonts/aptozen/MiloWeb-Light.svg") format("svg");
 }
 @font-face {
-  font-family: 'milowebbold';
-  font-weight: bold;
-  font-style: normal;
-
-  src: url('../fonts/aptozen/MiloWeb-Bold.eot');
-  src: url('../fonts/aptozen/MiloWeb-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/aptozen/MiloWeb-Bold.woff') format('woff'), url('../fonts/aptozen/MiloWeb-Bold.ttf') format('truetype'), url('./fonts/MiloWeb-Bold.svg') format('svg');
+	font-family: "milowebbold";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/aptozen/MiloWeb-Bold.eot");
+	src: url("../fonts/aptozen/MiloWeb-Bold.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/aptozen/MiloWeb-Bold.woff") format("woff"),
+	url("../fonts/aptozen/MiloWeb-Bold.ttf") format("truetype"),
+	url("../fonts/aptozen/MiloWeb-Bold.svg") format("svg");
 }
 @font-face {
-  font-family: 'milowebita';
-  font-weight: normal;
-  font-style: italic;
-
-  src: url('../fonts/aptozen/MiloWeb-Ita.eot');
-  src: url('../fonts/aptozen/MiloWeb-Ita.eot?#iefix') format('embedded-opentype'), url('../fonts/aptozen/MiloWeb-Ita.woff') format('woff'), url('../fonts/aptozen/MiloWeb-Ita.ttf') format('truetype'), url('./fonts/MiloWeb-Ita.svg') format('svg');
+	font-family: "milowebita";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/aptozen/MiloWeb-Ita.eot");
+	src: url("../fonts/aptozen/MiloWeb-Ita.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/aptozen/MiloWeb-Ita.woff") format("woff"),
+	url("../fonts/aptozen/MiloWeb-Ita.ttf") format("truetype"),
+	url("../fonts/aptozen/MiloWeb-Ita.svg") format("svg");
+}
+@font-face {
+	font-family: "milowebboldita";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/aptozen/MiloWeb-BoldIta.eot");
+	src: url("../fonts/aptozen/MiloWeb-BoldIta.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/aptozen/MiloWeb-BoldIta.woff") format("woff"),
+	url("../fonts/aptozen/MiloWeb-BoldIta.ttf") format("truetype"),
+	url("../fonts/aptozen/MiloWeb-BoldIta.svg") format("svg");
 }
 
 .bold,

@@ -2,6 +2,9 @@
 body {
     overflow-x: hidden;
     @include body-font;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-width: 320px;
 }
 
 p {

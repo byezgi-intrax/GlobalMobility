@@ -5,6 +5,7 @@ var header = require('gulp-header');
 var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
+var plumber = require('gulp-plumber');
 var pkg = require('./package.json');
 
 // Set the banner content
@@ -19,6 +20,7 @@ var banner = ['/*!\n',
 // Compiles SCSS files from /scss into /css
 gulp.task('sass', function() {
     return gulp.src('scss/agency.scss')
+        .pipe(plumber())
         .pipe(sass())
         .pipe(header(banner, { pkg: pkg }))
         .pipe(gulp.dest('css'))
