@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'miloweb';
+  font-weight: normal;
+  font-style: normal;
+
+  src: url('../fonts/aptozen/MiloWeb.eot');
+  src: url('../fonts/aptozen/MiloWeb.eot?#iefix') format('embedded-opentype'), url('../fonts/aptozen/MiloWeb.woff') format('woff'), url('../fonts/aptozen/MiloWeb.ttf') format('truetype'), url('../fonts/aptozen/MiloWeb.svg') format('svg');
+}
+@font-face {
+  font-family: 'miloweblight';
+  font-weight: lighter;
+  font-style: normal;
+
+  src: url('../fonts/aptozen/MiloWeb-Light.eot');
+  src: url('.../fonts/aptozen/MiloWeb-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/aptozen/MiloWeb-Light.woff') format('woff'), url('../fonts/aptozen/MiloWeb-Light.ttf') format('truetype'), url('../fonts/aptozen/MiloWeb-Light.svg') format('svg');
+}
+@font-face {
+  font-family: 'milowebbold';
+  font-weight: bold;
+  font-style: normal;
+
+  src: url('../fonts/aptozen/MiloWeb-Bold.eot');
+  src: url('../fonts/aptozen/MiloWeb-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/aptozen/MiloWeb-Bold.woff') format('woff'), url('../fonts/aptozen/MiloWeb-Bold.ttf') format('truetype'), url('./fonts/MiloWeb-Bold.svg') format('svg');
+}
+@font-face {
+  font-family: 'milowebita';
+  font-weight: normal;
+  font-style: italic;
+
+  src: url('../fonts/aptozen/MiloWeb-Ita.eot');
+  src: url('../fonts/aptozen/MiloWeb-Ita.eot?#iefix') format('embedded-opentype'), url('../fonts/aptozen/MiloWeb-Ita.woff') format('woff'), url('../fonts/aptozen/MiloWeb-Ita.ttf') format('truetype'), url('./fonts/MiloWeb-Ita.svg') format('svg');
+}
+
+.bold,
+b,
+strong {
+  font-family: 'milowebbold';
+  font-weight: normal;
+}
+
+.small-text-08 {
+  font-size: .8rem;
+}
+
+.italic,
+em,
+i {
+  font-family: milowebita;
+  font-style: normal;
+}
+
+.italic-bold {
+  font-family: milowebita;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: miloweblight;
+  font-weight: normal;
+}
+
+a {
+  cursor: pointer;
+}
