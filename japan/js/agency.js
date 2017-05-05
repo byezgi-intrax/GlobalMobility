@@ -39,4 +39,22 @@
         }
     });
 
+    function thankYou() {
+        var url = window.location.href;
+        // Get DIV
+        var msg = document.getElementById('confirmed');
+        //var form = document.getElementById('mktoForm_4686');
+        // Check if URL contains the keyword
+        if( url.search('aliId') > 0 ) {
+        // Display the message
+           msg.style.display = "block";
+           //form.style.display = "none !important";
+           $("body").scrollTop($("#contact").position().top);
+        }
+        else {
+            MktoForms2.loadForm("//app-abk.marketo.com", "342-VXF-330", 4686);
+        }
+    }
+    thankYou();
+
 })(jQuery); // End of use strict
