@@ -1,8 +1,19 @@
 // Variables
 
 // Gray and Brand Colors for use across theme
+$az-border-gray: #979797;
+$az-red: #f34e4e;
+$az-green: #22B300;
+$az-orange: #FFBF00;
+$az-light-pink: #f296e2;
+$az-hot-pink: #f24e73;
+$az-bright-blue: #3fa9f5;
+$az-dark-blue: #0557a2;
 
-$theme-primary:    #fed136;
+$az-dark-pink: $az-hot-pink;
+
+
+$theme-primary:    $az-bright-blue;
 $theme-danger:     #e74c3c;
 
 $gray-base:        #000 !default;
