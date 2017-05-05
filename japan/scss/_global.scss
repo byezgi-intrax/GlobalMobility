@@ -47,6 +47,14 @@ section {
         font-weight: 400;
         margin-bottom: 75px;
     }
+    h4.section-subheading {
+        font-size: 16px;
+        @include italic-font;
+        text-transform: none;
+        line-height: 1.5;
+        font-weight: 400;
+        margin-bottom: 50px;
+    }
 }
 
 @media(min-width:768px) {
