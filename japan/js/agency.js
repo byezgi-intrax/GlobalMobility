@@ -45,7 +45,7 @@
         var msg = document.getElementById('confirmed');
         //var form = document.getElementById('mktoForm_4686');
         // Check if URL contains the keyword
-        if( url.search('aliId') > 0 ) {
+        if( url.search('confirmed') > 0 ) {
         // Display the message
            msg.style.display = "block";
            //form.style.display = "none !important";

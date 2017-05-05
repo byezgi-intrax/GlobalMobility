@@ -28,16 +28,18 @@
              display: inline-block;
              text-shadow: 1px 1px 3px rgba(black, 0.5);
           }
-          img {
-              width: 80px;
+          .logo {
+              width: 200px;
+              height: 30px;
+              background: url("../img/logos/Global-Mobility-Logo-200.png") center 6px no-repeat;
           }
         }
         .navbar-nav {
             .nav-item {
                 .nav-link {
-                    font-size: 90%;
+                    font-size: 18px;
                     padding: 0.75em 0;
-                    @include heading-font;
+                    font-family: milowebbold;
                     font-weight: bold;
                     letter-spacing: 1px;
                     color: white;
@@ -69,8 +71,10 @@
                 top: 4px;
             }
 
-            img {
-                width: auto;
+            .logo {
+                width: 311px;
+                height: 36px;
+                background: url("../img/logos/Global-Mobility-Logo.png");
             }
         }
         .navbar-nav {
