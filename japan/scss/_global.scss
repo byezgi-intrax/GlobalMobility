@@ -9,7 +9,7 @@ body {
 }
 
 p {
-    line-height: 1.75;
+    line-height: 1.5;
 }
 
 a {
@@ -29,7 +29,7 @@ h4,
 h5,
 h6 {
     @include heading-font;
-    font-weight: 700;
+    font-weight: normal;
 }
 
 section {
@@ -41,18 +41,17 @@ section {
     }
     h3.section-subheading {
         font-size: 16px;
-        @include italic-font;
         text-transform: none;
         line-height: 1.5;
-        font-weight: 400;
+        font-weight: normal;
+        font-family: miloweb;
         margin-bottom: 75px;
     }
     h4.section-subheading {
         font-size: 16px;
-        @include italic-font;
         text-transform: none;
         line-height: 1.5;
-        font-weight: 400;
+        font-weight: normal;
         margin-bottom: 50px;
     }
 }
