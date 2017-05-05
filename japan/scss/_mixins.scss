@@ -88,6 +88,10 @@
   text-transform: uppercase;
 }
 
+@mixin italic-font {
+  font-family: "milowebita", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 @mixin light-font {
   font-family: "miloweblight", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

@@ -4,6 +4,7 @@
 }
 .how-it-works {
   text-align: center;
+  //padding: 0 0 150px;
   img {
     width: 130px;
     height: 130px;
@@ -15,7 +16,7 @@
 
 .how-it-works-number {
   display: none;
-  
+
   border-radius: 50%;
   background-color: #3FA9F5;
   width: 50px;
@@ -42,5 +43,8 @@
       top: 24px;
       width: 100%;
   }
+}
+
+#how-it-works {
 
 }
