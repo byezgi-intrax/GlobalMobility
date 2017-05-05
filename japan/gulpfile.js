@@ -7,6 +7,7 @@ var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
 var plumber = require('gulp-plumber');
 var pkg = require('./package.json');
+var sourcemaps = require('gulp-sourcemaps');
 
 // Set the banner content
 var banner = ['/*!\n',
@@ -21,8 +22,10 @@ var banner = ['/*!\n',
 gulp.task('sass', function() {
     return gulp.src('scss/agency.scss')
         .pipe(plumber())
+        .pipe(sourcemaps.init())
         .pipe(sass())
-        .pipe(header(banner, { pkg: pkg }))
+        //.pipe(header(banner, { pkg: pkg }))
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest('css'))
         .pipe(browserSync.reload({
             stream: true
